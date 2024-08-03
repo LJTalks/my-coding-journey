@@ -51,8 +51,8 @@ I am a late-career changer entering the online world of social media management,
 
 Feel free to reach out to me for collaborations, freelance opportunities, or any questions you might have.
 
-- **Email**: [LJ Talks](laurajmtb@gmail.com)
-- **LinkedIn**: [Laura Read] (https://www.linkedin.com/in/laurajread/)
+- **[Get in Touch](https://ljtalks.github.io/my-coding-journey/pages/contact.html)**
+- **[LinkedIn] (https://www.linkedin.com/in/laurajread/)**
 
 ## Acknowledgements
 
