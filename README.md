@@ -32,21 +32,7 @@ I am a late-career changer entering the online world of social media management,
 - **CSS3**: For styling the website.
 - **JavaScript**: For interactive features (to be added in future versions).
 - **GitHub Pages**: For hosting the website.
-- **Visual Studio Code**: As the integrated development environment (IDE).
-
-## Getting Started
-
-To get a local copy of the project up and running, follow these steps:
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/my-coding-journey.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd my-coding-journey
-    ```
-3. Open the project in your preferred code editor.
+- **Gitpod**: For cloud-based development.
 
 ## Features
 
@@ -65,13 +51,13 @@ To get a local copy of the project up and running, follow these steps:
 
 Feel free to reach out to me for collaborations, freelance opportunities, or any questions you might have.
 
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
-- **LinkedIn**: [your-linkedin-profile](https://www.linkedin.com/in/your-linkedin-profile)
-- **Twitter**: [@yourtwitterhandle](https://twitter.com/yourtwitterhandle)
+- **Email**: [LJ Talks](laurajmtb@gmail.com)
+- **LinkedIn**: [Laura Read] (https://www.linkedin.com/in/laurajread/)
 
 ## Acknowledgements
 
 - **ChatGPT by OpenAI**: For providing guidance and assistance in setting up this project.
+- **[Code Institute] (https://codeinstitute.net/)**: For excellent tutoring, learning materials and community. Go take their [free five day coding challenge](https://codeinstitute.net/5-day-coding-challenge/?sitelink=5-Day-Coding-Challenge&utm_term=code%20institute%20challenge&utm_campaign=CI+-+UK+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=1578649861&hsa_grp=62188641000&hsa_ad=635720257662&hsa_src=g&hsa_tgt=kwd-1396909058864&hsa_kw=code%20institute%20challenge&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjwqre1BhAqEiwA7g9Qhj0O61P9gi74Nj8aN7-WJnWiefRKY6wT3O9TF6FYBAAkr1mrj_eFnRoCNj8QAvD_BwE), and if you want to enroll on one of their courses [contact me] (laurajmtb@gmail.com) for discount details. 
 
 ---
 
