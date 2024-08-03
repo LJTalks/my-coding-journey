@@ -53,6 +53,8 @@ Feel free to reach out to me for collaborations, freelance opportunities, or any
 
 - **[Get in Touch](https://ljtalks.github.io/my-coding-journey/pages/contact.html)**
 - **[LinkedIn](https://www.linkedin.com/in/laurajread/)**
+- **<a href="https://www.linkedin.com/in/laurajread/" target="_blank">LinkedIn</a>**
+
 
 ## Acknowledgements
 
