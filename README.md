@@ -1,4 +1,4 @@
-# My Coding Journey
+# [My Coding Journey](https://ljtalks.github.io/my-coding-journey/index.html)
 
 Welcome to **My Coding Journey**! This project documents my path as I transition into the world of coding, social media management, content creation, and freelancing.
 
@@ -52,7 +52,6 @@ I am a late-career changer entering the online world of social media management,
 Feel free to reach out to me for collaborations, freelance opportunities, or any questions you might have.
 
 - **[Get in Touch](https://ljtalks.github.io/my-coding-journey/pages/contact.html)**
-- **[LinkedIn](https://www.linkedin.com/in/laurajread/)**
 - **<a href="https://www.linkedin.com/in/laurajread/" target="_blank">LinkedIn</a>**
 
 
