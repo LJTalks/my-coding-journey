@@ -69,6 +69,10 @@ Feel free to reach out to me for collaborations, freelance opportunities, or any
 - **LinkedIn**: [your-linkedin-profile](https://www.linkedin.com/in/your-linkedin-profile)
 - **Twitter**: [@yourtwitterhandle](https://twitter.com/yourtwitterhandle)
 
+## Acknowledgements
+
+- **ChatGPT by OpenAI**: For providing guidance and assistance in setting up this project.
+
 ---
 
 Thank you for visiting **My Coding Journey**! I appreciate your interest and support.
