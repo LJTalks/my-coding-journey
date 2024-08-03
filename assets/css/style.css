@@ -1,4 +1,3 @@
-
 /* Colors for reference
 #f4b8e4; Pale pink accent for header border bottom / footer border top /accent color for hovers /active page highlight /headings h2 text
 Changed to Bright pink ff007f 
@@ -15,23 +14,30 @@ Change to
 
 
 /* Basic reset and typography */
-body, h1, h2, p {
-    margin: 0;
+body,
+h1,
+h2,
+p {
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9; /* Light off-white background */
-    color: #333; /* Dark grey text for readability */
+    background-color: #f9f9f9;
+    /* Light off-white background */
+    color: #333;
+    /* Dark grey text for readability */
 }
 
 header {
-    background-color: #ffe4e9; /* Pale pink for the header */
-    border-bottom: 2px solid #ff007f; /* Pale pink accent */
+    background-color: #ffe4e9;
+    /* Pale pink for the header */
+    border-bottom: 2px solid #ff007f;
+    /* Pale pink accent */
     padding: 10px 0;
 }
+
 /*Pale Pink: #ffe4e9
 
 A soft, light pink that provides a gentle contrast without overpowering the vibrant accent color.
@@ -71,14 +77,16 @@ nav ul li a {
 /* Make menu items bold on hover */
 nav ul li a:hover {
     font-weight: bold;
-    color: #ff007f; /* Bright pink accent color for hover */
+    color: #ff007f;
+    /* Bright pink accent color for hover */
 }
 
 /* Style for the active page menu item */
 nav ul li a.active {
     text-decoration: underline;
     font-weight: bold;
-    color: #ff007f; /* Bright pink accent color for active page */
+    color: #ff007f;
+    /* Bright pink accent color for active page */
 }
 
 main {
@@ -90,12 +98,15 @@ section {
 }
 
 h2 {
-    color: #ff007f; /* Bright pink accent for headings */
+    color: #ff007f;
+    /* Bright pink accent for headings */
 }
 
 footer {
-    background-color: #ffe4e9; /* Same as header */
-    border-top: 2px solid #ff007f; /* Pale pink accent */
+    background-color: #ffe4e9;
+    /* Same as header */
+    border-top: 2px solid #ff007f;
+    /* Pale pink accent */
     padding: 10px 0;
     text-align: center;
 }
@@ -124,4 +135,10 @@ footer {
     nav ul li {
         margin: 5px 0;
     }
+}
+
+/* Media Query Screens <768 */
+
+body p {
+    width: 80%;
 }
