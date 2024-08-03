@@ -2,6 +2,8 @@
 
 Welcome to **My Coding Journey**! This project documents my path as I transition into the world of coding, social media management, content creation, and freelancing.
 
+It's a work in progress, so if sections are not behaving as they should please be patient and visit again soon. My next job is to get the contact page up and running! 
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -18,13 +20,13 @@ I am a late-career changer entering the online world of social media management,
 
 ## Website Structure
 
-- **Home**: An introduction about me, my background, and my plans.
-- **About**: Learn more about my journey and what inspired me to switch careers.
-- **Blog**: Follow my blog for updates, experiences, and insights.
-- **Portfolio**: Explore the projects and work I have completed.
-- **Testimonials**: Read testimonials from clients and colleagues.
-- **Product Reviews**: Reviews of tools and products that I use in my journey.
-- **Contact**: Get in touch with me for collaborations or freelance work.
+- **[Home](https://ljtalks.github.io/my-coding-journey/index.html)**: An introduction about me, my background, and my plans.
+- **[About](https://ljtalks.github.io/my-coding-journey/pages/about.html)**: Learn more about my journey and what inspired me to switch careers.
+- **[Blog](https://ljtalks.github.io/my-coding-journey/pages/blog.html)**: Follow my blog for updates, experiences, and insights.
+- **[Portfolio](https://ljtalks.github.io/my-coding-journey/pages/portfolio.html)**: Explore the projects and work I have completed.
+- **[Testimonials](https://ljtalks.github.io/my-coding-journey/pages/testimonials.html)**: Read testimonials from clients and colleagues.
+- **[Product Reviews](https://ljtalks.github.io/my-coding-journey/pages/product-reviews.html)**: Reviews of tools and products that I use in my journey.
+- **[Contact](https://ljtalks.github.io/my-coding-journey/pages/contact.html)**: Get in touch with me for collaborations or freelance work.
 
 ## Technologies Used
 
