@@ -2,7 +2,11 @@
 
 Welcome to **My Coding Journey**! This project documents my path as I transition into the world of coding, social media management, content creation, and freelancing.
 
-It's a work in progress, so if sections are not behaving as they should please be patient and visit again soon. My next job is to get the contact page up and running! 
+It's a work in progress, so if sections are not behaving as they should please feel free to [contact me](https://ljtalks.github.io/my-coding-journey/pages/contact.html) to let me know. 
+
+Bear in mind some of the technologies  plan to use in this project, I have not yet covered. I will continue to document my learning journey as I update the site! 
+
+Thank you for your interest and support. 
 
 ## Table of Contents
 
@@ -41,6 +45,7 @@ I am a late-career changer entering the online world of social media management,
 - **Responsive Design**: The website is designed to be responsive and accessible on various devices.
 - **Dynamic Navigation**: Highlighting the current page in the navigation menu.
 - **SEO Optimized**: Meta tags are included for better search engine optimization.
+- **Contact form** for visitors to reach out, using [Formspree]("https://www.formspree.io/").
 
 ## Future Plans
 
@@ -61,7 +66,8 @@ Feel free to reach out to me for collaborations, freelance opportunities, or any
 
 - **ChatGPT by OpenAI**: For providing guidance and assistance in setting up this project.
 - **[Code Institute](https://codeinstitute.net/)**: For excellent tutoring, learning materials and community. Go take their [free five day coding challenge](https://codeinstitute.net/5-day-coding-challenge/?sitelink=5-Day-Coding-Challenge&utm_term=code%20institute%20challenge&utm_campaign=CI+-+UK+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=1578649861&hsa_grp=62188641000&hsa_ad=635720257662&hsa_src=g&hsa_tgt=kwd-1396909058864&hsa_kw=code%20institute%20challenge&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjwqre1BhAqEiwA7g9Qhj0O61P9gi74Nj8aN7-WJnWiefRKY6wT3O9TF6FYBAAkr1mrj_eFnRoCNj8QAvD_BwE), and if you want to enroll on one of their courses **[contact me](https://ljtalks.github.io/my-coding-journey/pages/contact.html)** for discount details.
-- **[Amazon](https://amzn.to/4cZ7Tz3)**: This site contains affiliate links to products I personally use, and love. I may earn commission on qualifying purchases. This does does not increase the cost you. Thank you for supporting me.  
+- **[Amazon](https://amzn.to/4cZ7Tz3)**: This site contains affiliate links to products I personally use, and love. I may earn commission on qualifying purchases. This does does not increase the cost you. Thank you for supporting me.
+- **[Formspree][Formspree](https://formspree.io/)**: Used to handle the contact form submissions. Formspree allows easy integration of contact forms with email.
 
 ---
 
