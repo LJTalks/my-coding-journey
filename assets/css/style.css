@@ -89,6 +89,21 @@ nav ul li a.active {
     /* Bright pink accent color for active page */
 }
 
+/* Style for the signup button */
+.btn-signup {
+    background-color: #ff007f; /* Bright pink */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-signup:hover {
+    background-color: #e60074; /* Darker pink for hover effect */
+}
+
+
 main {
     padding: 20px;
 }
