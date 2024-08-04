@@ -66,6 +66,18 @@ www.dequeuniversity.com/rules/axe/4.9/color-contrast
 ![image](https://github.com/user-attachments/assets/3be27bfa-ffda-4c94-bb74-8ccd61096b0e)
 lighthouse
 ![image](https://github.com/user-attachments/assets/1b81a7a8-d529-43ec-9608-aab4e5d57541)
+New colour scheme
+![image](https://github.com/user-attachments/assets/76ed4bf5-8069-4743-b9f9-02eba16b48cf)
+contrast-finder.org
+![image](https://github.com/user-attachments/assets/e94fc870-a35e-4501-a7a0-8c578ea4d4e9)
+![image](https://github.com/user-attachments/assets/5dc7662a-b166-49c8-a6c6-be0a55633c85)
+![image](https://github.com/user-attachments/assets/e84b7bf2-8129-4d66-81d5-a8e6a2fcf94c)
+
+![image](https://github.com/user-attachments/assets/d05734be-6ac8-4ca4-a5e4-aeb1d7302836)
+![image](https://github.com/user-attachments/assets/7ca88e02-b6f3-4f84-ac7e-fdaf6a74abf0)
+![image](https://github.com/user-attachments/assets/800b7325-a908-40a6-ac9f-0dd45d226f01)
+
+
 
 ## Future Plans
 
