@@ -77,6 +77,8 @@ contrast-finder.org
 ![image](https://github.com/user-attachments/assets/7ca88e02-b6f3-4f84-ac7e-fdaf6a74abf0)
 ![image](https://github.com/user-attachments/assets/800b7325-a908-40a6-ac9f-0dd45d226f01)
 
+New color scheme
+![image](https://github.com/user-attachments/assets/c83316bb-8eb4-4adb-badf-a40d36938294)
 
 
 ## Future Plans
