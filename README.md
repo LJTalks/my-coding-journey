@@ -80,6 +80,11 @@ contrast-finder.org
 New color scheme
 ![image](https://github.com/user-attachments/assets/c83316bb-8eb4-4adb-badf-a40d36938294)
 
+![image](https://github.com/user-attachments/assets/4e547021-0067-47aa-b910-ce0181b4a1dc)
+![image](https://github.com/user-attachments/assets/6508088d-76f3-46e2-b737-a0326332e2e4)
+
+New Colors from pantone.com
+![image](https://github.com/user-attachments/assets/c4deeeaf-4c79-41d7-b2d7-dd62de983e37)
 
 ## Future Plans
 
