@@ -9,13 +9,13 @@ p {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9; /* Light off-white background */
+    background-color: #FAEDE7; /* Very light pink background */
     color: #333; /* Dark grey text for readability */
 }
 
 header {
-    background-color: #ffe4e9; /* Pale pink for the header */
-    border-bottom: 2px solid #ff007f; /* Bright pink accent */
+    background-color: #F7D3C3; /* Light peach for the header */
+    border-bottom: 2px solid #D51d48; /* Deep pink accent */
     padding: 10px 0;
 }
 
@@ -26,7 +26,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: #222; /* Darker grey for better contrast */
+    color: #333;
 }
 
 nav ul {
@@ -43,21 +43,20 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #333; /* Adjusted for better contrast */
     font-weight: bold;
 }
 
-/* Make menu items bold on hover */
 nav ul li a:hover {
     font-weight: bold;
-    color: #ff007f; /* Bright pink accent color for hover */
+    color: #D51d48; /* Deep pink accent color for hover */
 }
 
 /* Style for the active page menu item */
 nav ul li a.active {
     text-decoration: underline;
     font-weight: bold;
-    color: #ff007f; /* Bright pink accent color for active page */
+    color: #D51d48; /* Deep pink for active */
 }
 
 /* Dropdown Menu */
@@ -68,21 +67,21 @@ nav ul li a.active {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #ffe4e9; /* Same pale pink */
+    background-color: #F7D3C3; /* Same light peach */
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: #333;
+    color: #333; /* Adjusted for better contrast */
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: #ff007f; /* Bright pink for hover */
+    background-color: #D51d48; /* Deep pink for hover */
     color: white;
 }
 
@@ -92,17 +91,16 @@ nav ul li a.active {
 
 /* Style for the signup button */
 .btn-signup {
-    background-color: #ff007f; /* Bright pink */
+    background-color: #D51d48; /* Deep pink */
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
-    display: inline-block; /* Ensures proper spacing */
 }
 
 .btn-signup:hover {
-    background-color: #e60074; /* Darker pink for hover effect */
+    background-color: #e60074; /* Darker pink for hover */
 }
 
 main {
@@ -114,7 +112,7 @@ section {
 }
 
 h2 {
-    color: #ff007f; /* Bright pink accent for headings */
+    color: #D51d48; /* Deep pink accent for headings */
 }
 
 /* Contact Form Styles */
@@ -122,7 +120,7 @@ h2 {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #FAEDE7;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -131,7 +129,7 @@ h2 {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
-    color: #333;
+    color: #333; /* Adjusted for better contrast */
 }
 
 .contact-form input,
@@ -146,7 +144,7 @@ h2 {
 
 .contact-form button {
     padding: 10px 20px;
-    background-color: #ff007f;
+    background-color: #D51d48; /* Deep pink */
     color: white;
     border: none;
     border-radius: 4px;
@@ -155,13 +153,18 @@ h2 {
 }
 
 .contact-form button:hover {
-    background-color: #e60073;
+    background-color: #e60074; /* Darker pink for hover */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #ffe4e9; /* Pale pink background */
-    border-top: 2px solid #ff007f; /* Bright pink accent */
+    background-color: #F7D3C3; /* Light peach */
+    border-top: 2px solid #D51d48; /* Deep pink */
     padding: 20px 0;
 }
 
@@ -200,7 +203,6 @@ footer {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    text-align: center;
 }
 
 .footer-right li {
@@ -213,19 +215,11 @@ footer {
 }
 
 .footer-right a:hover {
-    color: #ff007f; /* Bright pink for hover effect */
+    color: #D51d48; /* Deep pink for hover effect */
 }
 
 /* Responsive design for mobile */
 @media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-
     .footer-container {
         grid-template-columns: 1fr; /* Single column for all footer items */
         grid-template-rows: auto auto auto auto auto; /* Adjust rows for each section */
@@ -240,7 +234,7 @@ footer {
         grid-row: 2;
         display: grid;
         grid-template-columns: 1fr; /* Single column for mobile view */
-        grid-template-rows: auto auto auto; /* Three rows for each section */
+        grid-template-rows: auto auto auto auto; /* Four rows for each section */
         gap: 10px;
         text-align: center; /* Center all items in the footer-bottom section */
     }
@@ -250,11 +244,11 @@ footer {
     }
 
     .footer-center {
-        grid-row: 3;
+        grid-row: 2;
     }
 
     .footer-right {
-        grid-row: 2;
+        grid-row: 3;
     }
 
     .footer-right ul {
@@ -268,8 +262,6 @@ footer {
     }
 }
 
-
-/* Responsive design for mobile */
 @media (max-width: 480px) {
     header h1 {
         font-size: 1.2em;
