@@ -86,6 +86,12 @@ New color scheme
 New Colors from pantone.com
 ![image](https://github.com/user-attachments/assets/c4deeeaf-4c79-41d7-b2d7-dd62de983e37)
 
+New colours from mycolor.space 
+![image](https://github.com/user-attachments/assets/70321e9f-12a6-4604-9f47-dbccfe5b432c)
+![image](https://github.com/user-attachments/assets/43214c0d-52f1-439e-bb55-85db16c8cd93)
+https://www.youtube.com/@FluxAcademy
+![image](https://github.com/user-attachments/assets/c6c81ef8-b65d-4812-9f8a-5688e17ba786)
+
 ## Future Plans
 
 - **JavaScript Enhancements**: Add interactive features using JavaScript.
