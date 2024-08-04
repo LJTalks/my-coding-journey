@@ -1,10 +1,14 @@
 # [My Coding Journey](https://ljtalks.github.io/my-coding-journey/index.html)
 
-Welcome to **My Coding Journey**! This project documents my path as I transition into the world of coding, social media management, content creation, and freelancing.
+![image](https://github.com/user-attachments/assets/f3cd8906-22af-4e89-b711-90d04170586d)
+https://ui.dev/amiresponsive
+
+Welcome to **[My Coding Journey](https://ljtalks.github.io/my-coding-journey/index.html)
+**! This project documents my path as I transition into the world of coding, social media management, content creation, and freelancing.
 
 It's a work in progress, so if sections are not behaving as they should please feel free to [contact me](https://ljtalks.github.io/my-coding-journey/pages/contact.html) to let me know. 
 
-Bear in mind some of the technologies  plan to use in this project, I have not yet covered. I will continue to document my learning journey as I update the site! 
+Some of the technologies I plan to use in this project I have not yet covered in my learning. I will continue to document my learning journey as I update the site! 
 
 Thank you for your interest and support. 
 
@@ -47,6 +51,17 @@ I am a late-career changer entering the online world of social media management,
 - **Dynamic Navigation**: Highlighting the current page in the navigation menu.
 - **SEO Optimized**: Meta tags are included for better search engine optimization.
 - **Contact form** for visitors to reach out, using [Formspree]("https://www.formspree.io/").
+
+## Testing and Validation
+W3 Html Validator
+![image](https://github.com/user-attachments/assets/774cb523-7176-4b55-8214-d1177ac79653)
+![image](https://github.com/user-attachments/assets/a66ce3bb-0667-4ba2-8672-7a811ea9d685)
+W3 CSS checker
+![image](https://github.com/user-attachments/assets/f692ca05-0dbf-4faf-8bc7-750178358501)
+https://ui.dev/amiresponsive
+![image](https://github.com/user-attachments/assets/3f734763-dfb6-4877-922f-f1e38bbc2b95)
+
+
 
 ## Future Plans
 
