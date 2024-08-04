@@ -60,6 +60,10 @@ W3 CSS checker
 ![image](https://github.com/user-attachments/assets/f692ca05-0dbf-4faf-8bc7-750178358501)
 https://ui.dev/amiresponsive
 ![image](https://github.com/user-attachments/assets/3f734763-dfb6-4877-922f-f1e38bbc2b95)
+lighthouse
+![image](https://github.com/user-attachments/assets/d1bf321b-2cde-4d1b-9990-cc7923fcacb6)
+www.dequeuniversity.com/rules/axe/4.9/color-contrast
+![image](https://github.com/user-attachments/assets/3be27bfa-ffda-4c94-bb74-8ccd61096b0e)
 
 
 
