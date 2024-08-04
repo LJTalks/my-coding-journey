@@ -181,4 +181,106 @@ footer {
 
 .footer-bottom {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr; /* Three columns for layout 
+    grid-template-columns: 1fr 2fr 1fr; /* Three columns for layout */
+    gap: 20px;
+    align-items: center; /* Vertically center align items */
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+    text-align: center; /* Center all footer text by default */
+}
+
+.footer-right {
+    text-align: right; /* Align right for right section */
+}
+
+.footer-right ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.footer-right li {
+    margin-bottom: 10px;
+}
+
+.footer-right a {
+    text-decoration: none;
+    color: #333; /* Ensure contrast with background */
+}
+
+.footer-right a:hover {
+    color: #ff007f; /* Bright pink for hover effect */
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr; /* Single column for all footer items */
+        grid-template-rows: auto auto auto auto auto; /* Adjust rows for each section */
+    }
+
+    .footer-top {
+        grid-row: 1;
+        text-align: center;
+    }
+
+    .footer-bottom {
+        grid-row: 2;
+        display: grid;
+        grid-template-columns: 1fr; /* Single column for mobile view */
+        grid-template-rows: auto auto auto; /* Three rows for each section */
+        gap: 10px;
+        text-align: center; /* Center all items in the footer-bottom section */
+    }
+
+    .footer-left {
+        grid-row: 1;
+    }
+
+    .footer-center {
+        grid-row: 3;
+    }
+
+    .footer-right {
+        grid-row: 2;
+    }
+
+    .footer-right ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-right li {
+        margin-bottom: 10px;
+    }
+}
+
+
+/* Responsive design for mobile */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.2em;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .footer-top a {
+        padding: 10px 20px;
+        display: inline-block; /* Ensures button fits well */
+    }
+}
