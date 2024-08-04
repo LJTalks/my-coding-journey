@@ -9,24 +9,31 @@ p {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #FAEDE7; /* Very light pink background */
-    color: #333; /* Dark grey text for readability */
+    background-color: #faeaff;
+    /* Accent Color 1 */
+    color: #000000;
+    /* Black */
 }
 
 header {
-    background-color: #F7D3C3; /* Light peach for the header */
-    border-bottom: 2px solid #D51d48; /* Deep pink accent */
+    background-color: #5927e5;
+    /* Dominant Color */
     padding: 10px 0;
+    border-bottom: 2px solid #000000;
+    /* Black */
 }
 
 header h1 {
     font-size: 1.5em;
     text-align: center;
+    color: #ffffff;
+    /* Pure White */
 }
 
 header a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
+    /* Pure White */
 }
 
 nav ul {
@@ -43,20 +50,23 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333; /* Adjusted for better contrast */
+    color: #ffffff;
+    /* Pure White */
     font-weight: bold;
 }
 
 nav ul li a:hover {
     font-weight: bold;
-    color: #D51d48; /* Deep pink accent color for hover */
+    color: #faeaff;
+    /* Accent Color 1 */
 }
 
 /* Style for the active page menu item */
 nav ul li a.active {
     text-decoration: underline;
     font-weight: bold;
-    color: #D51d48; /* Deep pink for active */
+    color: #faeaff;
+    /* Accent Color 1 */
 }
 
 /* Dropdown Menu */
@@ -67,22 +77,26 @@ nav ul li a.active {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #F7D3C3; /* Same light peach */
+    background-color: #5927e5;
+    /* Dominant Color */
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: #333; /* Adjusted for better contrast */
+    color: #ffffff;
+    /* Pure White */
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: #D51d48; /* Deep pink for hover */
-    color: white;
+    background-color: #faeaff;
+    /* Accent Color 1 */
+    color: #000000;
+    /* Black */
 }
 
 .dropdown:hover .dropdown-content {
@@ -91,8 +105,10 @@ nav ul li a.active {
 
 /* Style for the signup button */
 .btn-signup {
-    background-color: #D51d48; /* Deep pink */
-    color: white;
+    background-color: #5927e5;
+    /* Dominant Color */
+    color: #ffffff;
+    /* Pure White */
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -100,7 +116,8 @@ nav ul li a.active {
 }
 
 .btn-signup:hover {
-    background-color: #e60074; /* Darker pink for hover */
+    background-color: #3b1ca1;
+    /* Darker shade of Dominant Color for hover */
 }
 
 main {
@@ -112,7 +129,8 @@ section {
 }
 
 h2 {
-    color: #D51d48; /* Deep pink accent for headings */
+    color: #5927e5;
+    /* Dominant Color */
 }
 
 /* Contact Form Styles */
@@ -120,7 +138,8 @@ h2 {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #FAEDE7;
+    background-color: #ffffff;
+    /* Pure White */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -129,7 +148,8 @@ h2 {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
-    color: #333; /* Adjusted for better contrast */
+    color: #000000;
+    /* Black */
 }
 
 .contact-form input,
@@ -144,8 +164,10 @@ h2 {
 
 .contact-form button {
     padding: 10px 20px;
-    background-color: #D51d48; /* Deep pink */
-    color: white;
+    background-color: #5927e5;
+    /* Dominant Color */
+    color: #ffffff;
+    /* Pure White */
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -153,7 +175,8 @@ h2 {
 }
 
 .contact-form button:hover {
-    background-color: #e60074; /* Darker pink for hover */
+    background-color: #3b1ca1;
+    /* Darker shade of Dominant Color for hover */
 }
 
 .container {
@@ -163,15 +186,23 @@ h2 {
 
 /* Footer Styles */
 footer {
-    background-color: #F7D3C3; /* Light peach */
-    border-top: 2px solid #D51d48; /* Deep pink */
+    background-color: #5927e5;
+    /* Dominant Color */
     padding: 20px 0;
+box-shadow: #000000; /* Black */
+    color: #faeaff;
+}
+
+.amazon {
+    color: #faeaff;
 }
 
 .footer-container {
     display: grid;
-    grid-template-columns: 1fr; /* Single column for the top section */
-    grid-template-rows: auto auto; /* Two rows for the top and bottom sections */
+    grid-template-columns: 1fr;
+    /* Single column for the top section */
+    grid-template-rows: auto auto;
+    /* Two rows for the top and bottom sections */
     gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
@@ -184,19 +215,23 @@ footer {
 
 .footer-bottom {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr; /* Three columns for layout */
+    grid-template-columns: 1fr 2fr 1fr;
+    /* Three columns for layout */
     gap: 20px;
-    align-items: center; /* Vertically center align items */
+    align-items: center;
+    /* Vertically center align items */
 }
 
 .footer-left,
 .footer-center,
 .footer-right {
-    text-align: center; /* Center all footer text by default */
+    text-align: center;
+    /* Center all footer text by default */
 }
 
 .footer-right {
-    text-align: right; /* Align right for right section */
+    text-align: right;
+    /* Align right for right section */
 }
 
 .footer-right ul {
@@ -211,18 +246,22 @@ footer {
 
 .footer-right a {
     text-decoration: none;
-    color: #333; /* Ensure contrast with background */
+    color: #ffffff;
+    /* Pure White */
 }
 
 .footer-right a:hover {
-    color: #D51d48; /* Deep pink for hover effect */
+    color: #faeaff;
+    /* Accent Color 1 */
 }
 
 /* Responsive design for mobile */
 @media (max-width: 768px) {
     .footer-container {
-        grid-template-columns: 1fr; /* Single column for all footer items */
-        grid-template-rows: auto auto auto auto auto; /* Adjust rows for each section */
+        grid-template-columns: 1fr;
+        /* Single column for all footer items */
+        grid-template-rows: auto auto auto auto auto;
+        /* Adjust rows for each section */
     }
 
     .footer-top {
@@ -233,10 +272,13 @@ footer {
     .footer-bottom {
         grid-row: 2;
         display: grid;
-        grid-template-columns: 1fr; /* Single column for mobile view */
-        grid-template-rows: auto auto auto auto; /* Four rows for each section */
+        grid-template-columns: 1fr;
+        /* Single column for mobile view */
+        grid-template-rows: auto auto auto auto;
+        /* Four rows for each section */
         gap: 10px;
-        text-align: center; /* Center all items in the footer-bottom section */
+        text-align: center;
+        /* Center all items in the footer-bottom section */
     }
 
     .footer-left {
@@ -244,11 +286,22 @@ footer {
     }
 
     .footer-center {
-        grid-row: 2;
+        grid-row: 3;
     }
 
     .footer-right {
-        grid-row: 3;
+        grid-row: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Ensure the footer text and elements stack vertically */
+    .footer {
+        display: grid;
+        grid-template-rows: auto auto auto auto; /* Adjust rows to stack all footer elements */
+        gap: 16px; /* Space between footer elements */
     }
 
     .footer-right ul {
@@ -262,6 +315,7 @@ footer {
     }
 }
 
+
 @media (max-width: 480px) {
     header h1 {
         font-size: 1.2em;
@@ -273,6 +327,15 @@ footer {
 
     .footer-top a {
         padding: 10px 20px;
-        display: inline-block; /* Ensures button fits well */
+        display: inline-block;
+        /* Ensures button fits well */
+    }
+
+    .footer li {
+        margin: 16px, 0;
+    }
+
+    .footer li + li {
+           margin-top: 0; /* Remove top margin from the second paragraph */
     }
 }
