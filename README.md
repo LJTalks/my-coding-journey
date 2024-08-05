@@ -1,10 +1,9 @@
 # [My Coding Journey](https://ljtalks.github.io/my-coding-journey/index.html)
 
-![image](https://github.com/user-attachments/assets/f3cd8906-22af-4e89-b711-90d04170586d)
+![image](https://github.com/user-attachments/assets/949e459c-67a1-4aad-a5f3-09a8e0604c49)
 https://ui.dev/amiresponsive
 
-Welcome to **[My Coding Journey](https://ljtalks.github.io/my-coding-journey/index.html)
-**! This project documents my path as I transition into the world of coding, social media management, content creation, and freelancing.
+Welcome to **[My Coding Journey](https://ljtalks.github.io/my-coding-journey/index.html)**! This project documents my path as I transition into the world of coding, social media management, content creation, and freelancing.
 
 It's a work in progress, so if sections are not behaving as they should please feel free to [contact me](https://ljtalks.github.io/my-coding-journey/pages/contact.html) to let me know. 
 
@@ -77,6 +76,10 @@ contrast-finder.org
 ![image](https://github.com/user-attachments/assets/7ca88e02-b6f3-4f84-ac7e-fdaf6a74abf0)
 ![image](https://github.com/user-attachments/assets/800b7325-a908-40a6-ac9f-0dd45d226f01)
 
+## Colours and Design 
+Original colours 
+![image](https://github.com/user-attachments/assets/f3cd8906-22af-4e89-b711-90d04170586d)
+
 New color scheme
 ![image](https://github.com/user-attachments/assets/c83316bb-8eb4-4adb-badf-a40d36938294)
 
@@ -91,6 +94,8 @@ New colours from mycolor.space
 ![image](https://github.com/user-attachments/assets/43214c0d-52f1-439e-bb55-85db16c8cd93)
 https://www.youtube.com/@FluxAcademy
 ![image](https://github.com/user-attachments/assets/c6c81ef8-b65d-4812-9f8a-5688e17ba786)
+Still not happy with these colours! 
+![image](https://github.com/user-attachments/assets/61f2fe77-f241-41c8-86c8-ef88fafd0422)
 
 ## Future Plans
 
@@ -113,6 +118,8 @@ Feel free to reach out to me for collaborations, freelance opportunities, or any
 - **[Code Institute](https://codeinstitute.net/)**: For excellent tutoring, learning materials and community. Go take their [free five day coding challenge](https://codeinstitute.net/5-day-coding-challenge/?sitelink=5-Day-Coding-Challenge&utm_term=code%20institute%20challenge&utm_campaign=CI+-+UK+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=1578649861&hsa_grp=62188641000&hsa_ad=635720257662&hsa_src=g&hsa_tgt=kwd-1396909058864&hsa_kw=code%20institute%20challenge&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjwqre1BhAqEiwA7g9Qhj0O61P9gi74Nj8aN7-WJnWiefRKY6wT3O9TF6FYBAAkr1mrj_eFnRoCNj8QAvD_BwE), and if you want to enroll on one of their courses **[contact me](https://ljtalks.github.io/my-coding-journey/pages/contact.html)** for discount details.
 - **[Amazon](https://amzn.to/4cZ7Tz3)**: This site contains affiliate links to products I personally use, and love. I may earn commission on qualifying purchases. This does does not increase the cost you. Thank you for supporting me.
 - **[Formspree](https://formspree.io/)**: Used to handle the contact form submissions. Formspree allows easy integration of contact forms with email.
+- **[Favicon Generator](https://favicon.io/)**: To create a favicon file from a .png
+
 
 ---
 
