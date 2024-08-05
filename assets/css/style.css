@@ -1,8 +1,5 @@
-.inter-<uniquifier> {
+* {
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
 }
 
 body {
@@ -28,9 +25,14 @@ p {
     box-sizing: border-box;
 }
 
+container h2 a {
+    text-decoration: none;
+    color: inherit;
+}
+
 body {
     font-family: "Inter", sans-serif;
-    background-color: #faeaff;
+    background-color: rgb(247, 237, 248);
     color: #000000;
 }
 
@@ -65,6 +67,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
+    padding: 10px 20px;
     color: #ffffff;
     font-weight: bold;
 }
@@ -134,12 +137,28 @@ main .container {
     padding: 20px 0;
 }
 
-section {
+/*section {
     margin-bottom: 20px;
-}
+}*/
 
 h2 {
     color: #5927e5;
+}
+
+/* Home Page */
+#circle-cover-bg {
+    background: url("../images/mtb-laura.png") no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#myphoto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Blog specific styles 
