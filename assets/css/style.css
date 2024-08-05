@@ -22,7 +22,16 @@ h1,
 h2,
 p {
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 container h2 a {
@@ -32,14 +41,25 @@ container h2 a {
 
 body {
     font-family: "Inter", sans-serif;
-    background-color: rgb(247, 237, 248);
+    background-color: #faeaff);
     color: #000000;
+}
+
+.logo h1 {
+    font-size: 1.5em;
+    color: #ffffff;
 }
 
 header {
     background-color: #5927e5;
+    border-bottom: 2px solid #5927e5;
+    position: fixed;
+    top: 0;
+    width : 100%;
+    z-index: 1000;
+
     padding: 10px 0;
-    border-bottom: 2px solid #000000;
+    background-color: #5927e5;
 }
 
 header h1 {
@@ -53,11 +73,16 @@ header a {
     color: #ffffff;
 }
 
+nav {
+    position: relative;
+}
+
 nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
@@ -67,14 +92,16 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    padding: 10px 20px;
+ /*   padding: 10px 20px;*/
     color: #ffffff;
     font-weight: bold;
 }
 
 nav ul li a:hover {
     font-weight: bold;
-    color: #faeaff;
+    background-color: #faeaff;
+    color: #5927e5;
+
 }
 
 /* Style for the active page menu item */
@@ -82,6 +109,14 @@ nav ul li a.active {
     text-decoration: underline;
     font-weight: bold;
     color: #faeaff;
+}
+
+/* Hamburger Menu Icon*/
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    color: #ffffff;
+    cursor: pointer;
 }
 
 /* Dropdown Menu */
@@ -130,6 +165,10 @@ nav ul li a.active {
 
 
 /* Main Content Styles*/
+
+main {
+    padding-top: 1263px;
+}
 
 main .container {
     width: 80%;
@@ -242,13 +281,15 @@ h2 {
     background-color: #3b1ca1;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
 
 .amazon:hover {
     font-weight: bold;
+}
+
+
+/* Adjust padding for main content to prevent overlap with fixed header */
+main {
+    padding-top: 70px; /* Adjust based on header height */
 }
 
 /* Footer Styles */
@@ -317,6 +358,26 @@ footer .amazon {
 
 /* Responsive design for mobile */
 @media (max-width: 768px) {
+
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+nav ul li {
+    margin: 10px 0;
+}
+
+.menu-icon {
+    display: block;
+}
+
     .footer-container {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto auto auto;
