@@ -5,6 +5,21 @@
     font-style: normal;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body,
 h1,
 h2,
@@ -112,11 +127,6 @@ nav ul li a.active {
 
 
 /* Main Content Styles*/
-main {
-    padding: 20px;
-}
-
-/* Do I need that main section? */
 
 main .container {
     width: 80%;
@@ -228,6 +238,7 @@ footer {
     padding: 20px 0;
     box-shadow: #000000;
     color: #faeaff;
+    text-align: center;
 }
 
 footer .amazon {
