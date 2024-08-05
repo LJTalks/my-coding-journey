@@ -1,8 +1,5 @@
-.inter-<uniquifier> {
+* {
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
 }
 
 body {
@@ -70,6 +67,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
+    padding: 10px 20px;
     color: #ffffff;
     font-weight: bold;
 }
@@ -139,9 +137,9 @@ main .container {
     padding: 20px 0;
 }
 
-section {
+/*section {
     margin-bottom: 20px;
-}
+}*/
 
 h2 {
     color: #5927e5;
@@ -152,7 +150,6 @@ h2 {
     background: url("../images/mtb-laura.png") no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
-    margin-bottom: 20px;
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
