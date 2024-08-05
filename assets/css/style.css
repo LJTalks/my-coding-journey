@@ -1,4 +1,14 @@
 /* Basic reset and typography */
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 body,
 h1,
 h2,
@@ -8,7 +18,7 @@ p {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Inter", sans-serif;
     background-color: #faeaff;
     /* Accent Color 1 */
     color: #000000;
@@ -120,8 +130,18 @@ nav ul li a.active {
     /* Darker shade of Dominant Color for hover */
 }
 
+
+/* Main Content Styles*/
 main {
     padding: 20px;
+}
+
+/* Do I need that main section? */
+
+main .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
 }
 
 section {
@@ -131,6 +151,40 @@ section {
 h2 {
     color: #5927e5;
     /* Dominant Color */
+}
+
+/* Blog specific styles 
+main. blog .container {
+    max-width: 800px; /* Example width for blog pages */
+/* Add any other blog-specific styles here */
+}
+
+*/ .blog-post {
+    margin-bottom: 40px;
+}
+
+.blog-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex: 1;
+}
+
+.blog-content.reverse {
+    flex-direction: row-reverse;
+}
+
+.blog-content .text {
+    flex: 1;
+}
+
+.blog-content .image {
+    flex: 1;
+}
+
+.blog-content .image img {
+    width: 95%;
+    border-radius: 8px;
 }
 
 /* Contact Form Styles */
@@ -184,16 +238,21 @@ h2 {
     margin: 0 auto;
 }
 
+.amazon:hover {
+    font-weight: bold;
+}
+
 /* Footer Styles */
 footer {
     background-color: #5927e5;
     /* Dominant Color */
     padding: 20px 0;
-box-shadow: #000000; /* Black */
+    box-shadow: #000000;
+    /* Black */
     color: #faeaff;
 }
 
-.amazon {
+footer .amazon {
     color: #faeaff;
 }
 
@@ -238,6 +297,7 @@ box-shadow: #000000; /* Black */
     list-style-type: none;
     padding: 0;
     margin: 0;
+    align-items: center;
 }
 
 .footer-right li {
@@ -300,8 +360,10 @@ box-shadow: #000000; /* Black */
     /* Ensure the footer text and elements stack vertically */
     .footer {
         display: grid;
-        grid-template-rows: auto auto auto auto; /* Adjust rows to stack all footer elements */
-        gap: 16px; /* Space between footer elements */
+        grid-template-rows: auto auto auto auto;
+        /* Adjust rows to stack all footer elements */
+        gap: 16px;
+        /* Space between footer elements */
     }
 
     .footer-right ul {
@@ -335,7 +397,8 @@ box-shadow: #000000; /* Black */
         margin: 16px, 0;
     }
 
-    .footer li + li {
-           margin-top: 0; /* Remove top margin from the second paragraph */
+    .footer li+li {
+        margin-top: 0;
+        /* Remove top margin from the second paragraph */
     }
 }
