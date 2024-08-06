@@ -123,4 +123,4 @@ Feel free to reach out to me for collaborations, freelance opportunities, or any
 
 ---
 
-Thank you for visiting **My Coding Journey**! I appreciate your interest and support.
+Thank you for visiting **[My Coding Journey](www.ljtalks.com)**! I appreciate your interest and support.
