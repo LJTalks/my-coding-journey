@@ -32,43 +32,25 @@ container h2 a {
 
 body {
     font-family: "Inter", sans-serif;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(247, 237, 248);
     color: #000000;
 }
 
 header {
     background-color: #5927e5;
     padding: 10px 0;
-    box-shadow: rgba(89, 39, 229, .5);
     border-bottom: 2px solid #000000;
 }
 
-#logo-text h1 {
-    font-size: 2em !important;
-}
-
-header .container {
-    display: flex;
-    justify-content: space-between;
-}
-
-/*
 header h1 {
+    font-size: 1.5em;
     text-align: center;
     color: #ffffff;
 }
-*/
+
 header a {
     text-decoration: none;
     color: #ffffff;
-}
-
-header .nav {
-    justify-content: flex-end;
-}
-
-.menu-icon {
-    justify-content: flex-end;
 }
 
 nav ul {
@@ -104,7 +86,7 @@ nav ul li a.active {
 
 /* Dropdown Menu */
 .dropdown {
-    position: bottom;
+    position: relative;
 }
 
 .dropdown-content {
@@ -149,7 +131,7 @@ nav ul li a.active {
 
 /* Main Content Styles*/
 
-main {
+main .container {
     width: 80%;
     margin: 0 auto;
     padding: 20px 0;
@@ -173,21 +155,10 @@ h2 {
     max-height: 300px;
 }
 
-#home .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
-
 #myphoto {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.int-link {
-    text-decoration: none;
 }
 
 /* Blog specific styles */
@@ -342,13 +313,6 @@ footer .amazon {
     color: #faeaff;
 }
 
-#socials {
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    color: #ffffff;
-}
-
 /* Responsive design for mobile */
 @media (max-width: 768px) {
     .footer-container {
@@ -437,6 +401,10 @@ footer .amazon {
 /* Media Query for small mobiles*/
 @media (max-width: 480px) {
     
+    header h1 {
+        font-size: 1.2em;
+    }
+
     nav ul li {
         margin: 5px 0;
     }

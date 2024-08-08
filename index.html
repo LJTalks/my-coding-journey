@@ -40,21 +40,17 @@
 <body>
     <!-- Main Header Section -->
     <header>
-        <div class="container">
-            <div class="logo">
-                <h1><a href="index.html">My Coding Journey</a></h1>
-            </div>
+        <div class="container header">
+            <a href="/index.html" id="logo-text"><h1>My Coding Journey</h1></a>
             <nav>
-                <div class="menu-icon" id="menu-icon">&#9776;</div>
-                <ul id="menu">
-                    <li><a href="index.html" class="active"></a></li>
-                    <li><a href="pages/about.html">About</a></li>
+                <ul id="header-menu">
                     <li class="dropdown">
                         <a href="#" class="dropbtn">More</a>
                         <div class="dropdown-content">
                             <a href="pages/blog.html">Blog</a>
-                            <a href="pages/portfolio.html">Portfolio</a>
-                            <a href="pages/testimonials.html">Testimonials</a>
+                            <a href="pages/about.html">About</a>
+                            <!--<a href="pages/portfolio.html">Portfolio</a>
+                            <a href="pages/testimonials.html">Testimonials</a>-->
                             <a href="pages/product-reviews.html">Product Reviews</a>
                             <a href="pages/contact.html">Get in Touch!</a>
                         </div>
@@ -66,27 +62,36 @@
 
     <main>
         <section id="home">
+
             <div class="container">
                 <h2>Hello!</h2>
-                <p>A little space for me to share my progress, projects, and experiences as I navigate the world of coding and freelancing.</p>
-                <p>I currently 6 weeks into my coding journey and loving every minute. I love solving problems, even though things get pretty frustrating sometimes! Watch this site evolve as I learn new tricks and upskill. It's great to have you here!</p>
-                <p>Sometimes things go a bit squiffy in here. Like right now... Please be patient while I figure out how I broke it!</p>
+                <p>A little space for me to share my progress, projects, and experiences as I navigate the world of
+                    coding and freelancing.</p>
+                <p>I currently 6 weeks into my coding journey and loving every minute. I love solving problems, even
+                    though things get pretty frustrating sometimes! Watch this site evolve as I learn new tricks and
+                    upskill. It's great to have you here!</p>
+                <p>Sometimes things go a bit squiffy in here. Like right now... Please be patient while I figure out how
+                    I broke it!</p>
+            </div>
+            <div id="myphoto">
+                <div id="circle-cover-bg">
+                </div>
             </div>
         </section>
-        <div id="myphoto">
-            <div id="circle-cover-bg">
 
-            </div>
-        </div>
         <section id="blog">
             <div class="container">
-                <h2>My Latest Blog</h2>
+                <a href="pages/blog.html" class="int-link">
+                    <h2>My Latest Blog</h2>
+                </a>
                 <p>Check out my latest blog posts and updates.</p>
             </div>
         </section>
         <section id="contact">
             <div class="container">
-                <h2>Contact</h2>
+                <a href="pages/contact.html" class="int-link">
+                    <h2>Contact</h2>
+                </a>
                 <p>Get in touch with me.</p>
             </div>
         </section>
