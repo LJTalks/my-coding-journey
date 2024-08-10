@@ -22,8 +22,8 @@ body {
 }
 
 #hello {
-    padding-top: 0.8rem;
-    padding-left: 0.9rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 main h1, h2 {
@@ -158,6 +158,26 @@ nav ul li a:hover, nav ul li a.active {
     gap: 30px;
 }
 
+.blog-hero {
+    /* Center-aligns the figure and caption if needed */
+    text-align: center; /* Optional: center-aligns the figure and caption */
+    margin: 0 auto; /* Optional: centers the figure in its container */
+}
+
+.blog-hero img {
+    width: 100%; /* Makes the image responsive */
+    height: auto; /* Keeps the aspect ratio */
+    max-width: 100%; /* Prevents the image from exceeding its container */
+    display: block; /* Removes any extra space below the image */
+}
+
+.blog-hero figcaption {
+    font-size: 0.6rem; /* Adjust as needed */
+    color: #666; /* Adjust the color as needed */
+    margin-top: 0.5rem; /* Adds space between the image and caption */
+    text-align: left;
+}
+
 .blog-content .image img {
     width: 95%;
     border-radius: 8px;
@@ -284,14 +304,39 @@ footer {
 
 /* Tablet Screens */
 @media (min-width: 768px) {
+    #logo-text {
+        font-size: 1.2rem;
+    }
+    
     nav ul {
         flex-direction: row;
+    }
+
+    #hello {
+        padding-bottom: 5rem;
+        font-size: 2rem;
     }
 
     #home {
         flex-direction: row;
         justify-content: center;
+        align-items: end;
     }    
+
+    .blog-hero {
+        flex-direction: row; /* Switch to a row layout for larger screens */
+        justify-content: space-between; /* Space out image and text */
+    }
+
+    .blog-hero img {
+        width: 50%; /* Set image to 50% of the container width */
+        max-width: 100%; /* Ensure the image does not exceed its container */
+    }
+
+    .blog-hero .text-content {
+        width: 50%; /* Set text content to 50% of the container width */
+        padding: 0 20px; /* Add padding for spacing around text */
+    }
 
     .footer-bottom {
         grid-template-columns: 1fr 2fr 1fr;
@@ -306,6 +351,10 @@ footer {
 @media (min-width: 1024px) {
     main {
         width: 80%;
+    }
+
+    #hello {
+        font-size: 3rem;
     }
 
     #home {
