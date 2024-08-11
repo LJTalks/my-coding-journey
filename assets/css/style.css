@@ -205,7 +205,7 @@ nav ul li a.active {
     display: block;
 }
 
-#blog.bold1,
+#blog-bold1,
 #blog-bold2,
 #blog-bold3 {
     list-style-type: none;
@@ -297,22 +297,23 @@ nav ul li a.active {
 
 /* Footer Styles */
 
-footer {
+#footer {
     background-image: linear-gradient(43deg, #ff0077 0%, #ffd900 199%);
     padding: 20px 0;
     color: #F9F9F9;
     text-align: center;
 }
 
-.footer {
+#footer {
     display: grid;
      grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     max-width: 96%;
     margin: 0 auto;
+    font-size: 0.8rem;
 }
 
-.btn-signup {
+#footer .btn-signup {
     background-color: #ff0077;
     background-image: linear-gradient(43deg, #ff0077 0%, #ffd900 199%);
     color: #ffffff;
@@ -324,7 +325,7 @@ footer {
     box-shadow: 0 0 25px var(--main-color);
 }
 
-.btn-signup:hover {
+#footer .btn-signup:hover {
     background-color: #ffd900;
     transform: scale(1.05);
     color: #F9F9F9;
@@ -332,25 +333,25 @@ footer {
     font-size: 1.2rem;
 }
 
-.footer-signup {
+#footer .footer-signup {
     order: 2;
 }
 
-.footer-amazonlink {
+#footer .footer-amazonlink {
     order: 1;
 }
 
-.footer-amazonlink a {
+#footer .footer-amazonlink a {
     text-decoration: none;
     color: #ffffff;
 }
 
-.footer-amazonlink a:hover {
+#footer .footer-amazonlink a:hover {
     color: #faeaff;
     transform: scale(1.05);
 }
 
-.footer-copyright {
+#footer .footer-copyright {
     order: 3;
 }
 
