@@ -40,17 +40,19 @@
 <body>
     <!-- Main Header Section -->
     <header>
-        <div class="container">
-            <h1><a href="index.html">My Coding Journey</a></h1>
+        <div class="container header">
+            <a href="/index.html" id="logo-text">
+                <h1>My Coding Journey</h1>
+            </a>
             <nav>
-                <ul>
-                    <li><a href="pages/about.html">About</a></li>
+                <ul id="header-menu">
                     <li class="dropdown">
                         <a href="#" class="dropbtn">More</a>
                         <div class="dropdown-content">
                             <a href="pages/blog.html">Blog</a>
-                            <a href="pages/portfolio.html">Portfolio</a>
-                            <a href="pages/testimonials.html">Testimonials</a>
+                            <a href="pages/about.html">About</a>
+                            <!--<a href="pages/portfolio.html">Portfolio</a>
+                            <a href="pages/testimonials.html">Testimonials</a>-->
                             <a href="pages/product-reviews.html">Product Reviews</a>
                             <a href="pages/contact.html">Get in Touch!</a>
                         </div>
@@ -61,32 +63,25 @@
     </header>
 
     <main>
-        <section id="home">
+        <section id="legals">
             <div class="container">
-                <h2>Hello!</h2>
-                <p>This is where I share my progress, projects, and experiences as I navigate the world of coding and
-                    freelancing.</p>
-            </div>
-        </section>
-        <div id="myphoto">
-            <div id="circle-cover-bg">
-
-            </div>
-        </div>
-        <section id="blog">
-            <div class="container">
-                <h2>My Latest Blog</h2>
-                <p>Check out my latest blog posts and updates.</p>
-            </div>
-        </section>
-        <section id="contact">
-            <div class="container">
-                <h2>Contact</h2>
-                <p>Get in touch with me.</p>
+                <h2 id="legals">Links to Legal Information</h2>
+<a href="/pages/privacy-policy.html"><h2>Privacy Policy</h2></a>
+<a href="/pages/contact.html"><h2>Contact me for more information</h2></a>
             </div>
         </section>
     </main>
     <footer>
+        <script>
+            document.getElementById("menu-icon").onclick = function () {
+                var menu = document.getElementById("menu");
+                if (menu.style.display === "block") {
+                    menu.style.display = "none";
+                } else {
+                    menu.style.display = "block";
+                }
+            };
+        </script>
         <div class="container">
             <div class="footer-top">
                 <a href="pages/signup.html" class="btn-signup">Sign Up!</a>

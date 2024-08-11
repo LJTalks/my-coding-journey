@@ -7,11 +7,9 @@
     padding: 0;
 }
 
-html,
-body {
+html, body {
     height: 100%;
     margin: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -28,8 +26,7 @@ body {
     padding-bottom: 1rem;
 }
 
-main h1,
-h2 {
+main h1, h2 {
     color: #ff0077;
     text-decoration: none;
 }
@@ -94,8 +91,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-nav ul li a:hover,
-nav ul li a.active {
+nav ul li a:hover, nav ul li a.active {
     color: #ffd900;
     transform: scale(1.05);
 }
@@ -139,10 +135,10 @@ nav ul li a.active {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    
 }
 
-#myphoto {
+#myphoto{
     padding-bottom: 2rem;
 }
 
@@ -157,7 +153,7 @@ nav ul li a.active {
 
 /* Blog specific styles */
 
-#blog.blog-content {
+.blog-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -165,52 +161,34 @@ nav ul li a.active {
 }
 
 .blog-hero {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
+    /* Center-aligns the figure and caption if needed */
+    text-align: center; /* Optional: center-aligns the figure and caption */
+    margin: 0 auto; /* Optional: centers the figure in its container */
 }
 
-/*includes the figcaption*/
 .blog-hero img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    }
+    width: 100%; /* Makes the image responsive */
+    height: auto; /* Keeps the aspect ratio */
+    max-width: 100%; /* Prevents the image from exceeding its container */
+    display: block; /* Removes any extra space below the image */
+}
 
 .blog-hero figcaption {
-    font-size: 0.6rem;
-    color: #666;
-    margin-top: 0.5rem;
-    text-align: left;
-}
-
-.blog-amazon img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    display: block;
-}
-
-.blog-amazon figcaption {
-    font-size: 0.6rem;
-    color: #666;
-    margin-top: 0.5rem;
+    font-size: 0.6rem; /* Adjust as needed */
+    color: #666; /* Adjust the color as needed */
+    margin-top: 0.5rem; /* Adds space between the image and caption */
     text-align: left;
 }
 
 .blog-content .image img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    display: block;
+    width: 95%;
+    border-radius: 8px;
+    max-height: 80px;
 }
-
-#blog.bold1,
-#blog-bold2,
-#blog-bold3 {
-    list-style-type: none;
-    padding-left: 0;
-    margin-left: 0
+#blog-bold1, #blog-bold2, #blog-bold3 {
+    list-style-type: none ; /* Removes the bullet point */
+    padding-left: 0 ;
+    margin-left: 0 
 }
 
 .container.next-prev-blog {
@@ -241,8 +219,7 @@ nav ul li a.active {
 }
 
 .container.next-prev-blog a:hover {
-    font-weight: bold;
-    /* Bold on hover */
+    font-weight: bold; /* Bold on hover */
 }
 
 /* Contact form styles */
@@ -263,8 +240,7 @@ nav ul li a.active {
     color: #000000;
 }
 
-.contact-form input,
-.contact-form textarea {
+.contact-form input, .contact-form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -288,14 +264,11 @@ nav ul li a.active {
     transform: scale(1.05);
 }
 
-/* Check if this is specific to .contact-form (I don't think it is, it affected the headers... */
 .container {
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
 }
-
-/* Footer Styles */
 
 footer {
     background-image: linear-gradient(43deg, #ff0077 0%, #ffd900 199%);
@@ -306,11 +279,28 @@ footer {
 
 .footer {
     display: grid;
-     grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     gap: 20px;
     max-width: 96%;
     margin: 0 auto;
 }
+
+.footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer a:hover {
+    font-weight: bold;
+}
+
+.footer-bottom {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+}
+
 
 .btn-signup {
     background-color: #ff0077;
@@ -333,22 +323,36 @@ footer {
 }
 
 .footer-signup {
-    order: 2;
+    text-align: center;
+    order: 1;
 }
 
 .footer-amazonlink {
-    order: 1;
+    order: 2;
+}
+
+.footer-copyright {
+    order: 4;
+} 
+
+.footer-right ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-right li {
+    margin-bottom: 10px;
+}
+
+.footer-right a {
     text-decoration: none;
     color: #ffffff;
 }
 
-.footer-amazonlink a:hover {
+.footer-right a:hover {
     color: #faeaff;
     transform: scale(1.05);
-}
-
-.footer-copyright {
-    order: 3;
 }
 
 #socials {
@@ -360,11 +364,10 @@ footer {
 
 /* Tablet Screens */
 @media (min-width: 768px) {
-
     #logo-text {
         font-size: 1.2rem;
     }
-
+    
     nav ul {
         flex-direction: row;
     }
@@ -378,58 +381,27 @@ footer {
         flex-direction: row;
         justify-content: center;
         align-items: end;
-    }
+    }    
 
-    /* Blog styles */
-    .blog-top {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-        gap: 20px;
-        flex: 1;
+    .blog-hero {
+        flex-direction: row; /* Switch to a row layout for larger screens */
+        justify-content: space-between; /* Space out image and text */
     }
 
     .blog-hero img {
-        width: 100%;
-        height: auto;
+        width: 50%; /* Set image to 50% of the container width */
+        max-width: 100%; /* Ensure the image does not exceed its container */
+    }
+
+    .blog-hero .text-content {
+        width: 50%; /* Set text content to 50% of the container width */
+        padding: 0 20px; /* Add padding for spacing around text */
+    }
+    .blog-post {
         display: flex;
-        flex-direction: row;
-        flex: 1;
+        flex-wrap: wrap; /* Ensure items can wrap if needed */
+        gap: 20px; /* Adjust as needed */
     }
-
-    figcaption {
-        display: flex;
-    }
-
-    /*
-        .blog-content.reverse {
-        flex-direction: row-reverse;
-    }
-    
-    .blog-content .text {
-        flex: 1;
-    }
-    
-    .blog-content .image {
-        flex: 1;
-    }
-    
-    .blog-content .image img {
-        width: 95%;
-        border-radius: 8px;
-    }
-    
-    .blog-content ol,
-    .blog-content ul,
-    .blog-content.reverse ol,
-    .blog-content.reverse ul {
-        padding-left: 1em;
-        margin-left: 0em;
-        line-height: 1.4;
-    }*/
-
-    /* Footer */
     .footer-bottom {
         grid-template-columns: 1fr 2fr 1fr;
     }
