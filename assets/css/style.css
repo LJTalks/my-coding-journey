@@ -151,6 +151,8 @@ nav ul li a:hover, nav ul li a.active {
     max-height: 300px;
 }
 
+/* Blog specific styles */
+
 .blog-content {
     display: flex;
     flex-direction: column;
@@ -183,6 +185,44 @@ nav ul li a:hover, nav ul li a.active {
     border-radius: 8px;
     max-height: 80px;
 }
+#blog-bold1, #blog-bold2, #blog-bold3 {
+    list-style-type: none ; /* Removes the bullet point */
+    padding-left: 0 ;
+    margin-left: 0 
+}
+
+.container.next-prev-blog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.container.next-prev-blog a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.container.next-prev-blog .prev-blog p::before {
+    content: '← ';
+    margin-right: 8px;
+}
+
+.container.next-prev-blog .next-blog p::after {
+    content: ' →';
+    margin-left: 8px;
+}
+
+.container.next-prev-blog p {
+    margin: 0;
+}
+
+.container.next-prev-blog a:hover {
+    font-weight: bold; /* Bold on hover */
+}
+
+/* Contact form styles */
 
 .contact-form {
     max-width: 600px;
