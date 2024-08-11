@@ -423,6 +423,10 @@ nav ul li a.active {
         gap: 20px;
         /*flex: 1;*/
     }
+
+    .method, .div2 {
+        
+    }
     .blog-middle > div {
         flex-basis: 50%;
         max-width: 50%;
