@@ -63,47 +63,11 @@
     </header>
 
     <main>
-        <section id="home">
+        <section id="legals">
             <div class="container">
-                <h2 id="hello">Hello!</h2>
-                <p>My little space to share my progress, projects, and experiences as I navigate the world of
-                    coding and freelancing.</p>
-                <p>I'm currently 7 weeks into my coding journey (and a year into Digital Freelancing)! I'm loving every
-                    minute.</p>
-            </div>
-            <div id="myphoto">
-                <div id="circle-cover-bg">
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="container">
-                <p>I love solving problems, even
-                    though things get pretty frustrating sometimes! Watch this site evolve as I learn new tricks and
-                    upskill. It's great to have you here!</p>
-                <p>p.s. Sometimes things go a bit squiffy in here. Like right now... Please be patient while I figure
-                    out how
-                    I broke it!</p>
-            </div>
-        </section>
-        <section id="blog">
-            <div class="container">
-                <a href="pages/blog.html" class="int-link">
-                    <h2>My Latest Blog</h2>
-                </a>
-                <p>Check out my latest blog posts and updates.</p>
-                <p>I'm very new to coding and fairly new to anything tech, so prepare to cringe at some of the
-                    things I'm thinking and writing about.</p>
-                <p>Send me a comment if I need correcting! Every Day's a School Day, and I know I don't know what I
-                    don't know yet!</p>
-            </div>
-        </section>
-        <section id="contact">
-            <div class="container">
-                <a href="pages/contact.html" class="int-link">
-                    <h2>Contact</h2>
-                </a>
-                <p>Get in touch with me.</p>
+                <h2 id="legals">Links to Legal Information</h2>
+<a href="/pages/privacy-policy.html"><h2>Privacy Policy</h2></a>
+<a href="/pages/contact.html"><h2>Contact me for more information</h2></a>
             </div>
         </section>
     </main>
