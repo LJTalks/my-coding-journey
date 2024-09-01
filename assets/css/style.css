@@ -267,13 +267,15 @@ nav ul li a.active {
 /* Blog index page styles*/
 .blog-index.container {
     display: grid;
-    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-columns: 1fr;
     gap: 20px;
     padding: 20px;
 }
 
-.blog-item {
-    display: contents;
+.blog-index-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    align-items: start;
 }
 
 .blog-date, .blog-title, .blog-excerpt {
