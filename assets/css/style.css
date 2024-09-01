@@ -51,6 +51,10 @@ header {
     box-shadow: 0 4px 6px rgba(255, 0, 119, 0.4);
 }
 
+.dropbtn {
+    z-index: 1000;
+}
+
 .logo-round {
     width: 40px;
     height: auto;
@@ -222,7 +226,6 @@ nav ul li a.active {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 0;
 }
 
 .container.next-prev-blog a {
@@ -245,6 +248,17 @@ nav ul li a.active {
     margin: 0;
 }
 
+.blog-index {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.blog-index a {
+    text-decoration: none;
+    color: #ff0077;
+}
+
+.blog-index a:hover,
 .container.next-prev-blog a:hover {
     font-weight: bold;
     /* Bold on hover */
