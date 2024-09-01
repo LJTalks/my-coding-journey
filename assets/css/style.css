@@ -11,10 +11,9 @@ body {
     height: 100%;
     margin: 0;
     box-sizing: border-box;
-    padding-top: 120px;
     display: flex;
     flex-direction: column;
-    background-color: rgb(ffffff);
+    background-color: #ffffff;
     color: #000000;
     padding-top: 150px;
 }
@@ -139,7 +138,6 @@ nav ul li a.active {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 #myphoto {
@@ -294,13 +292,6 @@ nav ul li a.active {
     transform: scale(1.05);
 }
 
-/* Check if this is specific to .contact-form (I don't think it is, it affected the headers... 
-.container {
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
-}*/
-
 /* Footer Styles */
 
 footer {
@@ -437,9 +428,6 @@ footer {
         /*flex: 1;*/
     }
 
-    .method, .div2 {
-        
-    }
     .blog-middle > div {
         flex-basis: 50%;
         max-width: 50%;
