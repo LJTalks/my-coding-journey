@@ -264,6 +264,47 @@ nav ul li a.active {
     /* Bold on hover */
 }
 
+/* Blog index page styles*/
+.blog-index.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.blog-item {
+    display: contents;
+}
+
+.blog-date, .blog-title, .blog-excerpt {
+    padding: 10px; /* Optional padding for each cell */
+    border-bottom: 1px solid #ddd; /* Optional border for separation */
+}
+
+.blog-date {
+    grid-column: 1; /* First column */
+    font-weight: bold; /* Optional styling */
+}
+
+.blog-title {
+    grid-column: 2; /* Second column */
+    font-weight: bold; /* Optional styling */
+}
+
+.blog-title a {
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Link color */
+}
+
+.blog-title a:hover {
+    color: #ff0077;
+}
+
+.blog-excerpt {
+    grid-column: 3; /* Third column */
+    color: #555; /* Optional text color */
+}
+
 /* Contact form styles */
 
 .contact-form {
