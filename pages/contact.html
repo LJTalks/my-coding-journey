@@ -30,14 +30,17 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="../assets/favicon/site.webmanifest">
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BFVTQ40NWJ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BFVTQ40NWJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-BFVTQ40NWJ');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-BFVTQ40NWJ');
+    </script>
 </head>
 
 <body>
@@ -72,7 +75,7 @@
                     <h2>Contact Me</h2>
                     <p>If you have any questions or feedback, feel free to reach out using the form below:</p>
                     <p>Let me know if you want to receive regular updates about My Coding Journey!</p>
-                    <form action="mailto:laura@ljtalks.com" method="POST" class="contact-form">
+                    <form action="https://formspree.io/f/manwoajg" method="POST" class="contact-form">
                         <label for="name">Your name:</label>
                         <input type="text" id="name" name="name" required>
 
